@@ -1,0 +1,23 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    height: 100dvh;
+    width: 100dvw;
+}
+.game-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Declaring saved retro style font*/
+@font-face {
+    font-family: "retro";
+    src: url("../resources/fonts/Tiny5-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
