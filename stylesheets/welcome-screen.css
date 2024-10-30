@@ -1,0 +1,52 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100dvw;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    color: white;
+    font-family: "retro"; 
+    font-size: 100px;
+}
+.continue-info {
+    color: rgb(92, 163, 0);
+    font-family: "retro"; 
+    font-size: 30px;
+    animation-name: textSizeColor;  
+    animation-duration: 3s;  
+    animation-iteration-count: infinite;
+}
+
+
+
+/*Making animation to apply to text*/
+@keyframes textSizeColor {
+    0% {font-size: 30px}
+    50% {font-size: 40px}
+    100% {font-size: 30px}
+  }
+
+
+
+/*Declaring saved retro style font*/
+@font-face {
+    font-family: "retro";
+    src: url("../resources/fonts/Tiny5-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
